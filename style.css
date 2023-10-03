@@ -1,0 +1,202 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Sora:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@200&family=Martian+Mono&family=Sora:wght@100&family=Young+Serif&display=swap');
+
+
+ html {
+    scroll-behavior: smooth;
+} 
+
+* {
+   margin: 0;
+   padding: 0;
+} 
+
+
+    
+    
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #dbcece;
+    background-repeat: no-repeat ; 
+} 
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    border-radius: 200px;
+    margin-top: 30px;
+} 
+   
+
+.name { 
+    font-family: 'Martian Mono', monospace;
+    margin-top: 24px;
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: #514050;
+ } 
+
+ .social-midia { 
+    display: flex;
+    justify-content: center;
+    margin: 10px 
+ }
+
+
+   .icon { 
+    display: inline-block; 
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+    background-color: rgb(236, 210, 228)
+}
+    
+    .icon, .email { 
+        display: inline-block; 
+        width: 35px;
+        height: 35px;
+        border-radius: 30px;
+        margin: 3px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer; 
+        background-color: rgb(236, 210, 228)
+        ;}
+
+        .icon i, .email i { 
+            display: inline-block; 
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 22px;
+            border-radius: 25px;
+            cursor:pointer; 
+            color: #000000d2;}
+
+    .icon i { 
+     display: inline-block; 
+     width: 35px;
+     height: 35px;
+     line-height: 35px;
+     text-align: center;
+     font-size: 22px;
+     border-radius: 25px;
+     cursor:pointer; }
+
+     .icon span a {
+        list-style: none;
+        float: right;
+        margin-right: 23px;
+        font-weight: 100;
+        font-size: 17;
+        line-height: 35px;
+        cursor: pointer;
+}
+
+    .icon:hover {
+    width: 125px;
+    background-color: #f6d1f5d8;
+    border-radius: 20px;
+}
+
+.text { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 35px;
+    width: 500px;
+    height: 150px;
+    color: #514050;
+    background-color: rgb(236, 210, 228)
+}
+
+h1 {
+    color: #514050;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+} 
+
+
+
+.projetos {
+    margin-top: 40px;
+    flex-direction: column;
+ } 
+
+.item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 575px;
+    height: 58px;
+    margin-bottom: 7px;
+    border-radius: 40px;
+    color: #e3dce2;
+    background: #e3dce2;
+    ;
+    box-shadow: 0 5px 5px #ede0e0;
+    cursor: pointer;
+}
+
+.item:hover {
+    transition: 0.2s;
+    background-color: rgb(236, 210, 228)
+} 
+
+.footer {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: flex;
+    padding: 51px;
+    margin-top: 50px;
+    color: #514050;
+} 
+
+
+{} 
+
+
+
+ 
+
+   
+
+
+
+ 
